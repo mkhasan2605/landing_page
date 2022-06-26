@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+	font-weight: 300;
+	background-color: #eee;
+	color: #333;
+	text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.top-btn{
+    padding-top: 3rem;
+}
+.button {
+	font-size: 1.3rem;
+	color: #eee;
+	background-color: #333;
+	padding: 1rem 3.5rem;
+	border: none;
+	border-radius: 5px;
+    
+}
+.button a{
+    text-decoration: none;
+    color: green;
+}
+.button:hover {
+	background-color: #58d4ba;
+	color: #333;
+	cursor: pointer;
+}
+
+/* ********************    Navigation  *************************/
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: rgba(12, 7, 7, 0.959);
+    position: sticky;
+    top: 0;
+}
+
+.logo a{
+
+    font-size: 4rem;
+    padding-left: 60px;
+    font-family: 'Grey Qo', cursive;
+    color: green;
+    text-decoration: none;
+    
+}
+
+.nav-links ul{
+    
+    display: flex;
+    margin:0;
+    padding-right:20rem;
+    
+
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 2rem;
+    display: inline-block;
+    color: darkgreen;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-family: cursive;
+    
+
+}
+.nav-links ul li a:hover,
+.nav-links ul li a.current {
+	background-color: #333;
+	color: #fff;
+}
+
+/* **********************   Header   ******************************/
+#title-pg{
+
+/* ****** bg-img unsplash *******/
+
+    background-image: url("Images/bg-unsplash.jpg");
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center center;
+    background-size:cover;
+    height: 120vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: cursive;
+
+}
+    
+.intro-text {
+
+	margin-top: 5rem;
+	padding-bottom: 1rem;
+	
+}
+
+.intro-text h2{
+    font-size: 1.5rem;
+	letter-spacing:8.5px;
+    color: white;
+    font-style: italic;
+    
+}
+.name{
+    font-size: 2vw;
+	letter-spacing: 1.6rem;
+	color: #58d4ba;
+	font-weight: 400;
+    
+}
+
+/* *****************  MENU SECTION   ************************** */
+
+#menu h2{
+    font-size: 3.3rem;
+	line-height: 3.5;
+	padding: 3rem 0;
+	letter-spacing: 0.2rem;
+    
+}
+
+ 
+.photos{
+
+    display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+    align-items: center;
+    padding: 0, 50px;
+
+}
+
+img{
+    
+    width: calc(100%/1.1);
+	height: calc(100%/1.1);
+}
+
+
+
+/* ************************ Gallery Grid ********************* */
+
+.foor-pic{
+
+    
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    position: absolute;
+	justify-content: center;
+	align-content: center;
+    width: 100vw;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+#gallery h2{
+        font-size: 3.3rem;
+        line-height: 3.5;
+        padding: 3rem 0;
+        letter-spacing: 0.2rem;
+}
+
+
+.food-pic img {
+	width: 300px;
+	height:300px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+
+
+    /* ****************** Contact-form*********** */
+
+    
+    #contact h2{
+        font-size: 3.3rem;
+        line-height: 3.5;
+        padding: 3rem 0;
+        letter-spacing: 0.2rem;
+    }
+    #contact form {
+        padding: 0 20%;
+        text-align: left;
+    }
+    #contact label {
+        font-size: 2rem;
+    }
+    
+    #contact textarea {
+        height: 10rem;
+    }
+
+ input,textarea {
+	background-color: #e9e9e9;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 1rem;
+	width: 100%;
+	margin-bottom: 3rem;
+	font-size: 1.2rem;
+}
+
+
+/* ************** footer *****************/
+
+
+#footer{
+    background-color: #66bfbf;
+    padding: 50px 0 50px
+}
+
+.bottom-container a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.bottom-container a:hover{
+    color: #eaf6f6;
+}
+p{
+    padding-top: 15px;
+    color: honeydew;
+}
